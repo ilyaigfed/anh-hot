@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Roboto&display=swap);@font-face {
+  font-family: Lighthaus;
+  src: url("/fonts/Lighthaus.otf");
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.start-block {
+  background: #cce4ea;
+}
+

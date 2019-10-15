@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view("pages.reviews");
     }
+
+    public function admin()
+    {
+        return view("admin.index");
+    }
 }

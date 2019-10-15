@@ -17,3 +17,5 @@ Route::get("/reviews", "PageController@reviews")->name("client.reviews");
 
 Route::post("/contact", "ClientFormController@contact")->name("client.form.contact");
 Route::post("/subscribe", "ClientFormController@subscribe");
+
+Route::get('/admin-panel{any}', 'PageController@admin')->where('any', '.*');
